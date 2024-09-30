@@ -1,16 +1,16 @@
 
-import { promises as fs } from "fs";
 import { NextResponse } from "next/server";
 
 const url = "https://api.nasa.gov/planetary/apod?api_key=5B6oJsSCQyekXZvNOKpsUhRPl1e7FHqjIAyHpybk";
 
-export async function GET(request: Request, url: string) {
+export async function GET(request: Request) {
     try {
-        const file = await fs.readFile(process.cwd() + 'url', 'utf-8');
+
+        const response = await fetch("https://api.nasa.gov/planetary/apod?api_key=5B6oJsSCQyekXZvNOKpsUhRPl1e7FHqjIAyHpybk");
+        const result = await response.json();
+        return NextResponse.json(result);
 
 
-        const data = JSON.parse(file);
-        return NextResponse.json(url);
     } catch (error) {
 
         console.error(error);
