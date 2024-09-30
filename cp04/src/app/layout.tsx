@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className="bg-purple-950">
+      <body className="bg-slate-950 w-full h-screen">
             <header>
             <nav>
               <ul className="menu">
