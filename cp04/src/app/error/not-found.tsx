@@ -5,7 +5,7 @@ export default function notError() {
         <div>
             OPS! error 404! Page not Found
             <figure>
-                <Image src="/image/404-page.jpg"
+                <Image src="./images/404-page.jpg"
                     width={500}
                     height={500}
                     alt={"error"} />

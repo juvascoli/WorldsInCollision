@@ -1,7 +1,6 @@
 
 import { NextResponse } from "next/server";
 
-const url = "https://api.nasa.gov/planetary/apod?api_key=5B6oJsSCQyekXZvNOKpsUhRPl1e7FHqjIAyHpybk";
 
 export async function GET(request: Request) {
     try {
