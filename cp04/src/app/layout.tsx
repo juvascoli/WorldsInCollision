@@ -1,6 +1,6 @@
 import "@/app/globals.css";
-import Cabecalho from "@/components/Cabecalho/Cabecalho";
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "World In Collision",
@@ -14,8 +14,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body>
-        <Cabecalho />
+      <body className="bg-purple-950">
+            <header>
+            <nav>
+              <ul className="menu">
+                  <li><Link href="/"> Home </Link></li>
+                  <li><Link href="/notfound"> Página não encontrada </Link></li>
+                  <li><Link href="/">asd </Link></li>
+              </ul>
+            </nav>
+            </header>
         {children}
       </body>
     </html>
