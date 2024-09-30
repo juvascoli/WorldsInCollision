@@ -13,16 +13,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-BR">
       <body className="bg-slate-950 w-full h-screen">
             <header>
-            <nav>
-              <ul className="menu">
-                  <li><Link href="/"> Home </Link></li>
-                  <li><Link href="/notfound"> Página não encontrada </Link></li>
-                  <li><Link href="/">asd </Link></li>
-              </ul>
-            </nav>
+              <nav>
+                <ul className="menu">
+                    <li><Link href="/"> Home </Link></li>
+                    <li><Link href="/cometa">Cometa</Link></li>
+                    <li><Link href="/calculo">Calculo</Link></li>
+                </ul>
+              </nav>
             </header>
         {children}
       </body>
