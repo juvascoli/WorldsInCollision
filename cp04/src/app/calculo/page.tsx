@@ -14,7 +14,9 @@ export default function Calculo() {
         </div>
 
         <div className="flex flex-col justify-center px-8 py-4 gap-6 w-full">
-            <h2 className="text-4xl font-bold text-center">Simulação do Cálculo</h2>
+            <h2 className="text-4xl font-bold text-center">Fomula do Cálculo</h2>
+            <p className="text-4xl mt-12 text-center">F = (G . Mt . Mv) / r . r</p>
+            <p className="text-3xl w-1/2 m-auto">Se Velikovsky estivesse correto e Vênus passasse muito perto da Terra, a força gravitacional seria enorme, mas a distância r é o fator mais determinante. Mesmo com massas grandes, a força gravitacional decresce rapidamente à medida que a distância r aumenta.</p>
         </div>
     </section>
     )

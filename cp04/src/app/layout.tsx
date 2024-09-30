@@ -21,6 +21,7 @@ export default function RootLayout({
                     <li><Link href="/"> Home </Link></li>
                     <li><Link href="/cometa">Cometa</Link></li>
                     <li><Link href="/calculo">Calculo</Link></li>
+                    <li><Link href="/catastrofe">Catastrofe</Link></li>
                 </ul>
               </nav>
             </header>
