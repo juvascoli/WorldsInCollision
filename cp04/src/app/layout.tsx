@@ -1,6 +1,6 @@
+import "@/app/globals.css";
 import Cabecalho from "@/components/Cabecalho/Cabecalho";
 import type { Metadata } from "next";
-
 
 export const metadata: Metadata = {
   title: "World In Collision",
