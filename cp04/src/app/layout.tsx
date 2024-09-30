@@ -1,3 +1,4 @@
+import Cabecalho from "@/components/Cabecalho/Cabecalho";
 import type { Metadata } from "next";
 
 
@@ -14,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body>
+        <Cabecalho />
         {children}
       </body>
     </html>
