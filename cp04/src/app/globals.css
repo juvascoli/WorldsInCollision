@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 @layer components{
-  .cabecalho{
-      @apply bg-slate-400 w-full; 
-  }
   .menu{
     @apply flex bg-slate-100 text-blue-700 justify-around
   }

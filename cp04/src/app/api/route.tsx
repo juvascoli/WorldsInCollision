@@ -9,11 +9,9 @@ export async function GET(request: Request) {
         const result = await response.json();
         return NextResponse.json(result);
 
-
     } catch (error) {
 
         console.error(error);
         return NextResponse.json({ message: "erro" }, { status: 500 });
     }
 }
-
